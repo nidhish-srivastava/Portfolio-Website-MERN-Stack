@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
   const {images,name,description,technologiesUsed,deploymentLink,repoLink} = props.projectDetails
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={images[0]} alt="card-img" />
+      <Card.Img variant="top" src={images[0]} alt="card-img" loading="lazy" />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

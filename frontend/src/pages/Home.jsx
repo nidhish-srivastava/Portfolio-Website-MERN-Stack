@@ -36,6 +36,7 @@ const Home = () => {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
+              loading='lazy'
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
