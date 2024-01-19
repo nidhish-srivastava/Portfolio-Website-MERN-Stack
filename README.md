@@ -1,4 +1,4 @@
-# Portfolio-Website-MERN-Stack-Assignment for VisionConsultancy
+# Portfolio-Website-MERN-Stack
 
 ## 🛠 Installation and Setup Instructions
 
